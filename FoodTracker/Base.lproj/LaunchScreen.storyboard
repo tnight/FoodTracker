@@ -32,8 +32,14 @@ www.flaticon.com.</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2016 by Terry Nightingale. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-WL-zDK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FoodTracker App as a derivative work: Copyright (C) 2016 Terry Nightingale. All Rights Reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-WL-zDK">
                                 <rect key="frame" x="60" y="524" width="480" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Original FoodTracker App: Copyright (C) 2015 Apple Inc. All Rights Reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xp-qv-1bj">
+                                <rect key="frame" x="60" y="492" width="480" height="12"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -43,10 +49,13 @@ www.flaticon.com.</string>
                         <constraints>
                             <constraint firstItem="dl4-wU-fae" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="3eX-Pj-Gsw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dl4-wU-fae" secondAttribute="trailing" constant="60" id="7hl-MZ-5XO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7xp-qv-1bj" secondAttribute="trailing" constant="40" id="8AW-kU-JIY"/>
                             <constraint firstItem="dl4-wU-fae" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="60" id="G1f-bW-9HY"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Iu8-Db-DRW" secondAttribute="bottom" constant="20" id="NhB-mC-ie4"/>
+                            <constraint firstItem="Wjv-WL-zDK" firstAttribute="top" secondItem="7xp-qv-1bj" secondAttribute="bottom" constant="20" id="UIv-nw-ahd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Iu8-Db-DRW" secondAttribute="trailing" constant="40" id="Wha-H1-7rN"/>
                             <constraint firstItem="Wjv-WL-zDK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="40" id="aq2-ie-kuK"/>
+                            <constraint firstItem="7xp-qv-1bj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="40" id="fWw-NB-ih7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Wjv-WL-zDK" secondAttribute="trailing" constant="40" id="ke3-wt-0Q0"/>
                             <constraint firstItem="Iu8-Db-DRW" firstAttribute="top" secondItem="Wjv-WL-zDK" secondAttribute="bottom" constant="20" id="kgQ-J9-GJV"/>
                             <constraint firstItem="Iu8-Db-DRW" firstAttribute="centerX" secondItem="dl4-wU-fae" secondAttribute="centerX" id="oKO-CI-8bK"/>
